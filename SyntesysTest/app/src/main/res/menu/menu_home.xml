@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".controller.home.ui.HomeActivity">
+
+    <item
+        android:id="@+id/action_pause"
+        android:icon="@drawable/vector_icon_pause"
+        android:menuCategory="secondary"
+        android:orderInCategory="2"
+        android:title="Pause"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_start"
+        android:icon="@drawable/vector_icon_start"
+        android:menuCategory="secondary"
+        android:orderInCategory="1"
+        android:title="Start"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_stop"
+        android:icon="@drawable/vector_icon_stop"
+        android:menuCategory="secondary"
+        android:orderInCategory="3"
+        android:title="Stop"
+        app:showAsAction="always" />
+
+</menu>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Sintesys</string>
+
+    <string name="txt_pi">%1$s Pi: %2$.15f   Elapsed Time MS: %3$s \n</string>
+
+</resources>
